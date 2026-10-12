@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    padding: 16px 0 24px 0;
+}
+
+.navbar-inner {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    display: block;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    list-style: none; 
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5A6474;
+    font-weight: 600;
+}
+
+.btn-green {
+    border-radius: 60px;
+    background-color: #3CA548;
+    color: #FFFFFF;
+    padding: 12px 28px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.badge-green {
+    border-radius: 5px;
+    background-color: #B2F6B5;
+    color: #165536;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.hero-text h1 {
+    font-size: 56px; 
+    line-height: 1.1; 
+    color: #0A0A0A; 
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.text-green {
+    color: #3CA548;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #5A6474; 
+    margin-bottom: 40px; 
+}
+
+.grid-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-tall {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    grid-row: 1 / span 2;
+    grid-column: 1 / 2;
+    border-radius: 15px;
+}
+
+.grid-small1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    border-radius: 15px;
+}
+
+.grid-small2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    border-radius: 15px;
+}
+
+.mobile-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-toggle {
+        display: block;
+    }
+    
+    .hero-inner {
+        flex-direction: column;
+    }
+    
+    .hero-text {
+        max-width: 100%;
+    }
+}
