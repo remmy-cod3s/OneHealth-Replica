@@ -3,9 +3,15 @@ body{
     margin: 0;
 }
 .container {
+<<<<<<< HEAD
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+=======
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 40px;
+>>>>>>> origin/feature-backup
 }
 
 .navbar {
@@ -49,7 +55,11 @@ body{
 .logo img{
     width: 100%;
     height: auto;
+<<<<<<< HEAD
     padding-left: 50px;
+=======
+    /* padding-left: 50px; */
+>>>>>>> origin/feature-backup
     display:block;
 }
 
@@ -188,11 +198,17 @@ body{
     border-radius: 15px;
 }
 
+<<<<<<< HEAD
 .mobile-toggle {
+=======
+/* Change this from .mobile-toggle to .menu-btn */
+.menu-btn {
+>>>>>>> origin/feature-backup
     display: none;
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
     .mobile-toggle {
         display: block;
     }
@@ -204,6 +220,11 @@ body{
     .hero-text {
         max-width: 100%;
     }
+=======
+    .menu-btn {
+        display: block;
+    }
+>>>>>>> origin/feature-backup
 }
 
 
@@ -421,7 +442,11 @@ body{
 
 .categories{
     /* align-items: center; */
+<<<<<<< HEAD
     display: flex;
+=======
+    /* display: flex; */
+>>>>>>> origin/feature-backup
     margin-bottom: auto;
     text-align: center;
     padding:80px 0;
@@ -514,4 +539,77 @@ body{
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
+<<<<<<< HEAD
+=======
+}
+
+.why{
+    background-color: #F1FCF2;
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+
+}
+
+.why .badge-green{ 
+    border-radius: 50px;
+    text-align: left;
+    color: #5A6474;
+}
+
+.why .pop{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.why .section-label::before {
+    display: none;
+}
+
+.why .section-label::after {
+    background: black;
+}
+
+.why h2{
+    font-size: 48px;
+    color: #134F3A;
+}
+
+.features{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "sec1 sec2 sec3";
+    gap: 70px;
+    text-align: center;
+}
+
+.feature1{
+    grid-area: sec1;
+}
+
+.feature2{
+    grid-area: sec2;
+}
+
+.feature3{
+    grid-area: sec3;
+}
+
+.features img{
+        width: 600px;
+        height: auto;
+        max-width: 100%;
+}
+
+.features h3{
+    color: #3CA548;
+    font-size: 25px;
+}
+
+.features p{
+    color: #5A6474;
+    font-size: 17px;
+>>>>>>> origin/feature-backup
 }
