@@ -57,11 +57,7 @@
 <section class="banner">
     <div class="container banner-inner">
         <div class="banner-text">
-<<<<<<< HEAD
-            <h1>Scarce and expensive medicines? Not anymore.</h2>
-=======
             <h2>Scarce and expensive medicines? Not anymore.</h2>
->>>>>>> origin/feature-backup
             <p>Get reliable access to your regular prescriptions with Automatic Refills.</p>
             <a class="btn btn-green" href="#">Subscribe and Save now</a>
         </div>
@@ -102,11 +98,7 @@
 <section class="suite">
     <div class="container">
         <span class="badge badge-gray">INDUSTRY LEADERS IN LAST MILE CARE</span>
-<<<<<<< HEAD
-        <h1>A Fully Integrated Suite of Healthcare Solutions Driving a Healthier Africa.</h2>
-=======
         <h2>A Fully Integrated Suite of Healthcare Solutions Driving a Healthier Africa.</h2>
->>>>>>> origin/feature-backup
         <p>As Nigeria's online pharmacy and pharmacy benefits manager (PBM), we connect individuals, providers, payers, and their enrollees with quality medications and unique health solutions that drive positive health outcomes.</p>
 
         <!-- two gallery cards-->
@@ -119,21 +111,13 @@
                 <a class="btn btn-outline" href="#">Learn more  →</a>
             </article>
 
-<<<<<<< HEAD
-            <div class="card2">
-=======
             <article class="card2">
->>>>>>> origin/feature-backup
                 <span class="badge badge-green">FOR PHARMACIES</span>
                 <img src="images/suite2.png" alt="Illustration of a shopping basket with medicines">
                 <h3>Pharmacy fulfillment &amp; dispensing</h3>
                 <p>Deliver more medications and make extra pharmacy sales</p>
                 <a class="btn btn-outline" href="#">Learn more</a>
-<<<<<<< HEAD
-            </div>
-=======
             </article>
->>>>>>> origin/feature-backup
         </div>
     </div>
 </section>
@@ -189,15 +173,6 @@
 <section class="why">
     <!-- image background-->
     <div class="container">
-<<<<<<< HEAD
-        <span class="badge badge-green">WHY ONEHEALTH</span>
-        <h2>How is OneHealth Different?</h2>
-
-        <!-- 3 gallery cards, each before a bold h3 tag-->
-        <div class="features">
-            <article class="feature">
-                <img src="images/why-prices.png" alt="Price comparison: OneHealth is cheaper than other pharmacies">
-=======
         <img class="pop" src="images/Pills.png" alt="">
         <div class="section-label">
             <span class="badge badge-green">WHY ONEHEALTH</span>
@@ -207,25 +182,16 @@
         <div class="features">
             <article class="feature">
                 <img src="images/pills1.jpg" alt="Price comparison: OneHealth is cheaper than other pharmacies">
->>>>>>> origin/feature-backup
                 <h3>Lowest prices</h3>
                 <p>We offer the lowest prices and discounts to give you the best prices on your medications &amp; healthcare solutions</p>
             </article>
             <article class="feature">
-<<<<<<< HEAD
-                <img src="images/why-support.png" alt="Contact channels: WhatsApp, phone and email">
-=======
                 <img src="images/pills2.jpg" alt="Contact channels: WhatsApp, phone and email">
->>>>>>> origin/feature-backup
                 <h3>Medication Support</h3>
                 <p>We manage &amp; automate your refills, provide convenient medication support, patient follow-up and advisory.</p>
             </article>
             <article class="feature">
-<<<<<<< HEAD
-                <img src="images/why-delivery.png" alt="Notification that your medicines have arrived">
-=======
                 <img src="images/pills3.jpg" alt="Notification that your medicines have arrived">
->>>>>>> origin/feature-backup
                 <h3>Same Day, Last Mile Care</h3>
                 <p>Before work, in the evening, at home or right to your office. We deliver your quality healthcare right to your door.</p>
             </article>
@@ -240,20 +206,20 @@
 
         <!--Two gallery cards here with button and texts in each-->
         <div class="product-cards">
-            <article class="product-card product-dark">
-                <img class="product-icon" src="images/icon-pillmova.svg" alt="">
+            <article class="product-card-dark">
+                <img class="product-icon" src="images/pillmova-logo.png" alt="">
                 <h3>Pillmova</h3>
                 <p>#1 Pharma logistics and mobility platform in Nigeria</p>
                 <a class="btn btn-outline-white" href="#">Learn more</a>
-                <img class="product-screenshot" src="images/pillmova-dashboard.png" alt="Pillmova pharmacy dashboard">
+                <img class="product-screenshot" src="images/pillmova-banner.png" alt="Pillmova pharmacy dashboard">
             </article>
 
-            <article class="product-card product-light">
-                <img class="product-icon" src="images/icon-pillfinda.svg" alt="">
+            <article class="product-card-light">
+                <img class="product-icon" src="images/pillfinda-logo.png" alt="Pillfinda logo">
                 <h3>Pillfinda</h3>
                 <p>Pharma procurement, inventory intelligence for pharmacies in Africa</p>
                 <a class="btn btn-outline" href="#">Learn more</a>
-                <img class="product-screenshot" src="images/pillfinda-dashboard.png" alt="Pillfinda logistics dashboard">
+                <img class="product-screenshot" src="images/pillfinda-banner.png" alt="Pillfinda logistics dashboard">
             </article>
         </div>
     </div>
@@ -261,7 +227,7 @@
 
 <section class="weight-loss">
     <div class="container weight-loss-inner">
-        <img src="images/weight-loss.jpg" alt="A smiling woman sitting on a yoga mat, looking at her phone">
+        <img src="images/weightloss.jpg" alt="A smiling woman sitting on a yoga mat, looking at her phone">
         <div class="weight-loss-text">
             <h2>Clinically Guided Weight Loss That Lasts.</h2>
             <p>The Method is a doctor-led GLP-1 program in Nigeria using semaglutide or tirzepatide when appropriate (the same medication classes used in Ozempic®/Wegovy®), paired with pharmacist follow-ups and muscle-health guidance.</p>
@@ -276,14 +242,18 @@
 
         <!-- Tabs: JavaScript will show one testimonial at a time -->
         <div class="tabs">
-            <button class="tab-arrow" type="button" aria-label="Previous">&lt;</button>
-            <button class="tab" type="button" data-tab="hmos">HMOs</button>
-            <button class="tab" type="button" data-tab="pharmacies">Pharmacies</button>
-            <button class="tab active" type="button" data-tab="individuals">Individuals</button>
-            <button class="tab-arrow" type="button" aria-label="Next">&gt;</button>
+            <button class="tab-arrow" id="prev-tab" type="button" aria-label="Previous">&lt;</button>
+
+            <div class="tab-list">
+                <button class="tab active" type="button" data-tab="hmos">HMOs</button>
+                <button class="tab" type="button" data-tab="pharmacies">Pharmacies</button>
+                <button class="tab" type="button" data-tab="individuals">Individuals</button>
+            </div>
+
+            <button class="tab-arrow" id="next-tab" type="button" aria-label="Next">&gt;</button>
         </div>
 
-        <div class="testimonial" id="tab-hmos">
+        <div class="testimonial active" id="tab-hmos">
             <h3>Reliance HMO</h3>
             <p>OneHealth provides coordinated prescription fulfillment and support for our members. This improves our operations and member satisfaction.</p>
         </div>
@@ -301,17 +271,16 @@
 <section class="guidance">
     <div class="container guidance-inner">
         <div class="avatars">
-            <img src="images/team-1.jpg" alt="Care team member">
-            <img src="images/team-2.jpg" alt="Care team member">
-            <img src="images/team-3.jpg" alt="Care team member">
+            <img src="images/customer-care.png" alt="Care team member">
         </div>
 
         <div class="guidance-text">
-            <h2>Need Medical Guidance? Speak with our in-house care team</h2>
+            <h2>Need Medical Guidance? </h2>
+            <h2> Speak with our in-house care team</h2>
             <ul class="contact-list">
-                <li><a href="https://wa.me/2349079840233"><img src="images/icon-whatsapp.svg" alt="WhatsApp"> 09079840233</a></li>
-                <li><a href="tel:08188762448"><img src="images/icon-phone.svg" alt="Phone"> 08188762448</a></li>
-                <li><a href="mailto:customerservice@onehealthng.com"><img src="images/icon-mail.svg" alt="Email"> customerservice@onehealthng.com</a></li>
+                <li><a href="https://wa.me/2349079840233"><img src="images/whatsapp.png" alt="WhatsApp"> 09079840233</a></li>
+                <li><a href="tel:08188762448">✆ 08188762448</a></li>
+                <li><a href="mailto:customerservice@onehealthng.com">✉ customerservice@onehealthng.com</a></li>
             </ul>
         </div>
 
@@ -329,25 +298,25 @@
             <!-- first slide content-->
             <div class="slide">
                 <article class="post">
-                    <img src="images/blog-1.jpg" alt="">
+                    <img src="images/blog-1.webp" alt="">
                     <div class="post-meta"><span class="tag">Health Tips</span><span>8 Mins Read</span></div>
                     <h3>Sexual Health: The Questions People Ask But Don’t Always Know Who To Ask</h3>
                     <a href="#">Read the article</a>
                 </article>
                 <article class="post">
-                    <img src="images/blog-2.jpg" alt="">
+                    <img src="images/blog-2.png" alt="">
                     <div class="post-meta"><span class="tag">Health Tips</span><span>3 Mins Read</span></div>
                     <h3>Tiny Habits to Manage Menopause: Preparing Your Body and Mind</h3>
                     <a href="#">Read the article</a>
                 </article>
                 <article class="post">
-                    <img src="images/blog-3.jpg" alt="">
+                    <img src="images/blog-3.webp" alt="">
                     <div class="post-meta"><span class="tag">Healthcare Industry</span><span>2 Mins Read</span></div>
                     <h3>OneHealth Pharmacy Launches Lumina: An AI Health Navigator Built For WhatsApp</h3>
                     <a href="#">Read the article</a>
                 </article>
                 <article class="post">
-                    <img src="images/blog-4.jpg" alt="">
+                    <img src="images/blog-4.png" alt="">
                     <div class="post-meta"><span class="tag">Healthcare Industry</span><span>1 Mins Read</span></div>
                     <h3>OneHealth Pharmacy: Everything We've Built, Now in One Place</h3>
                     <a href="#">Read the article</a>
@@ -357,7 +326,7 @@
             <!--second slide content-->
             <div class="slide">
                 <article class="post">
-                    <img src="images/blog-5.jpg" alt="">
+                    <img src="images/blog-5.png" alt="">
                     <div class="post-meta"><span class="tag">Medical</span><span>3 Mins Read</span></div>
                     <h3>Treating Erectile Dysfunction in Nigeria</h3>
                     <a href="#">Read the article</a>
@@ -369,7 +338,7 @@
                     <a href="#">Read the article</a>
                 </article>
                 <article class="post">
-                    <img src="images/blog-7.jpg" alt="">
+                    <img src="images/blog-7.png" alt="">
                     <div class="post-meta"><span class="tag">Lifestyle</span><span>2 Mins Read</span></div>
                     <h3>Dealing with Breast Cancer as a Survivor</h3>
                     <a href="#">Read the article</a>
@@ -516,19 +485,11 @@
     <div class="container footer-bottom">
         <p>© 2026 OneHealth. All rights reserved.</p>
         <p><a href="#">Privacy Policy</a> <a href="#">Terms &amp; Conditions</a></p>
-<<<<<<< HEAD
-    </div>
-</footer>
-
-<a class="chat-btn" href="https://wa.me/2349079840233">Chat with us</a>
-
-=======
         <a class="chat-btn" href="https://wa.me/2349079840233">Chat with us</a>
     </div>
     
 </footer>
 
->>>>>>> origin/feature-backup
 <script src="script.js"></script>
 </body>
 </html>
